@@ -121,6 +121,7 @@ switch (command) {
   case "list": {
     const filterIndex = args.indexOf("--filter");
     const filter = filterIndex !== -1 ? args[filterIndex + 1] : null;
+//suppots me
     listTasks(filter);
     break;
   }
